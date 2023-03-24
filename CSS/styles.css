@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Recursive', cursive;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: 'Macondo', cursive;
+    font-size: 80px;
+    color: #11cdd4;
+}
+
+.h2-1st {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 35px;
+    color: #11cdd4;
+}
+
+h3 {
+    color: #11cdd4;
+}
+
+p {
+    font-family: 'Recursive', cursive;
+    font-size: 19px;
+}
+
+span {
+    text-decoration: underline;
+}
+
+hr {
+    border: dotted #7e9e9e;
+    border-bottom: none;
+    width: 3%;
+    margin: 100px auto;
+}
+
+a {
+    color: #11999E;
+    margin: 10px 15px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 350px;
+    top: 60px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 350px;
+    bottom: 300px;
+}
+
+.copyright {
+    color: #eaf6f6;
+    font-size: 0.95rem;
+    padding: 20px;
+}
+
+/*--------containers-------*/
+
+.top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    margin: 100px 0;
+}
+
+.bottom-container {
+    font-size: 25px;
+    font-weight: 400;
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+}
+
+
+
+.profile {
+    line-height: 2;
+}
+
+.skills {
+    margin: 100px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.software-engineer {
+    height: 20%;
+    width: 20%;
+    padding-left: 50px;
+}
+
+.adobe-photoshop {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    padding: 10px;
+}
+
+.video-editing {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.ux-design {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.web-development {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.contact-btn {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999e);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999e);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999e);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999e);
+    background-image: linear-gradient(to bottom, #11CDD4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+  .contact-btn:hover {
+    background: #30e3cb;
+    transition: 0.3s;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+
